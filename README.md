@@ -2,7 +2,7 @@
 
 ## Description ##
 
-This plugin allow to build development environment without copy data from uploads folder. Manage an failback with PHP and production assets.
+This plugin allow to build development environment without copy data from uploads folder. Manage a fallback with PHP and production assets.
 
 ## Important to know ##
 
@@ -19,7 +19,7 @@ RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-content/uploads.*) $1 [L]
 ```
 
-If your Multisite installation is an old verison with the blog.dir folder, you have to use this rule
+If your Multisite installation is an old version with the blog.dir folder, you have to use this rule
 ```
 RewriteRule ^([_0-9a-zA-Z-]+/)?files/(.+) $2 [L]
 ```
